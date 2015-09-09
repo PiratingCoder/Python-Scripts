@@ -1,0 +1,12 @@
+#The print below will show up before you enter any information. 
+print("Enter valid information below to put yourself in to a story.")
+#Creating an input for the name, hair colour and gender."
+myGender = input("What is your gender? (Male or Female): ")
+myName = input("Enter the name here: ")
+myHairColour = input("Hair Colour: ")
+myHairColour
+#If you chose male you will get a different line of text than if you chose female.
+if(myGender == 'Male'):
+    print("Once upon a time, there was a great man named " + myName + "\n, He came riding in from the sun with his beautiful long " + myHairColour + " hair.")
+if(myGender == 'Female'):
+    print("Once upon a time, there was a great woman named " + myName + "\nShe came riding in from the sun with her beautiful long " + myHairColour + " hair.")
