@@ -1,0 +1,13 @@
+#Here are the inputs which basically allows the user to interact with the program and type in the name for the Hero and his pet plus the villain aswell.
+heroName = input("Enter the name of the Hero: ")
+villainName = input("Enter the name of the Villain: ")
+heroPetName = input("Enter the name of the Hero's pet: ")
+#The empty print spaces are made so that you can see where the story ends and starts without seeing all the inputs right next to the information.
+print("")
+#Here is the story. '+' will basically connect multiple things together such as the input for the villains name which should show right next to the text.
+print(" There was once an evil man named " + villainName)
+#\n will create a new line so when you see that it means it will start a new line.
+print(" he was believed to be unstoppable until a great hero named " + heroName + "\n and his trusty pet " + heroPetName + " who appeared out of no where came to save the day.")
+#Here is another space to make it clearer as to where the story ends, it's completely optional and can be removed if you want to.
+print("")
+#Feel free to add more story, if you need any help with doing so, then please comment on my GitHub. :)
