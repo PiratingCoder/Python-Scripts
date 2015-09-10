@@ -1,0 +1,7 @@
+#This shows the suitable time for the person who views the application.
+import datetime
+currentDate = datetime.date.today()
+print(currentDate.strftime('Todays date is: %c'))
+
+
+
