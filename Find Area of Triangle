@@ -1,0 +1,7 @@
+#Since the answer to the questions is only numbers we make it a float value.
+height = float(input("What is the height of the triangle? "))
+width = float(input("What is the width of the triangle? "))
+#Once they've entered the information, the code will use this to find the area for the triangle.
+area = width * height /2
+#Here it will show the answer to you.
+print("The area of the triangle would be {0:f} ".format(area))
